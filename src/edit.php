@@ -135,7 +135,7 @@ Al hacer click en el botón Guardar, llama a esta misma página: edit.php-->
 		<div >
 			<input type="hidden" name="id" value=<?php echo $id;?>>
 			<input type="submit" name="modifica" value="Guardar">
-			<input type="button" value="Cancelar" onclick="location.href='index.php'">
+			<!--<input type="button" value="Cancelar" onclick="location.href='index.php'">-->
 		</div>
 	</form>
 

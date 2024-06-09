@@ -10,7 +10,7 @@ include_once("config.php");
 
 //Consulta de selección. Selecciona todos los usuarios ordenados de manera descendente por el campo id
 
-$result = mysqli_query($mysqli, "SELECT * FROM users ORDER BY id DESC");
+$result = mysqli_query($mysqli, "SELECT * FROM users ORDER BY name");
 
 ?>
 
@@ -85,7 +85,7 @@ $res["age"] = "23";
 	</table>
 	</main>
 	<footer>
-    Created by the IES Miguel Herrero team &copy; 2024
+    <!--Created by the IES Miguel Herrero team &copy; 2024-->
   	</footer>
 </div>
 </body>
